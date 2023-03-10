@@ -22,7 +22,7 @@ tasks:
 
     init: |
       # Everything below will be executed when we create a new workspace.
-      "$GITPOD_REPO_ROOT/.gitpod/scripts/bootstrap-init.sh"
+      #"$GITPOD_REPO_ROOT/.gitpod/scripts/bootstrap-init.sh"
 
     command: |
       cd "$GITPOD_REPO_ROOT/mozilla-unified"
